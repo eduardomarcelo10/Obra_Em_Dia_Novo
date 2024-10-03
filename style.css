@@ -9,20 +9,77 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-.background-fundo {
-    background: #B3B5B4;
+.fundo {
+    background: #a4a5ab;
+    text-align: center;
+    height: 100vh;
+    
+    
     
 }
 
 .container {
+    display: flex;
     max-width: 1440px;
     padding: 0 5%;
     margin: 0 auto;
+    flex-direction: row;
 }
 
-.nav {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+ 
 }
+
+img {
+    width: 200px;
+    border-radius: 12px;
+        
+}
+
+ul {
+    display: flex;  
+    list-style-type: none;
+    padding: 280px;
+    margin: 20px;
+    width: 280;
+    color: black;
+    
+    
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 30px;
+    padding: 20px;
+    color: rgb(6, 6, 83);
+    width: 50%;
+
+  
+}
+
+a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.entrar {
+    display: flex;
+    flex-direction: column;
+
+
+
+    
+}
+
+
+
+
+
+
+
